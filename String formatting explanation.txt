@@ -1,0 +1,10 @@
+name = "John": This line sets a variable called 'name' and gives it the value "John". 
+You can think of 'name' as a label(placeholder) that stores the(variable) name "John".
+
+print("Hello, %s!" % name). This line is where the greeting message is created and printed. 
+Here’s how it works:
+      "Hello, %s!" is a template for the message. The '%s' is a placeholder, where the `%` symbol says "insert something here," and `s` stands for "string," meaning we’ll insert a text.
+`% name` tells Python to replace `%s` with whatever is stored in `name` (which is "John").
+
+So, when you run the code, it prints out:  
+**"Hello, John!"**
